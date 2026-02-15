@@ -1,0 +1,30 @@
+title: MFD Professional Services
+email: contact@mfd.example.com
+description: >-
+  Professional Mutual Fund Distribution and Financial Advisory Services. 
+  Helping you grow your wealth with discipline.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://username.github.io" # the base hostname & protocol for your site
+twitter_username: mfd_advisor
+github_username: username
+
+# Build settings
+theme: jekyll-theme-minimal # Using a basic theme as a starting point, we'll customize
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Pagination for blog
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Permalinks
+permalink: /:categories/:title/
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /blog/:title/
