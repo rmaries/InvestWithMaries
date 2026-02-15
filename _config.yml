@@ -1,11 +1,10 @@
-title: MFD Professional Services
-email: contact@mfd.example.com
+title: Invest With Maries 
+email:  
 description: >-
   Professional Mutual Fund Distribution and Financial Advisory Services. 
   Helping you grow your wealth with discipline.
 baseurl: "/InvestWithMaries" # the subpath of your site, e.g. /blog
 url: "https://rmaries.github.io" # the base hostname & protocol for your site
-twitter_username: mfd_advisor
 github_username: rmaries
 
 # Build settings

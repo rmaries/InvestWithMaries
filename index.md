@@ -5,7 +5,7 @@ title: Home
 
 <section class="hero">
     <h1>Secure Your Financial Future</h1>
-    <p>Expert Mutual Fund Distribution and Wealth Management Solutions for Individuals and Families.</p>
+    <p>Expert Mutual Fund Distribution and Wealth Management Solutions for Resident Individuals and NRIs.</p>
 </section>
 
 <section class="features">
@@ -21,7 +21,7 @@ title: Home
         </div>
         <div class="service-card">
             <h3>Digitally Enabled</h3>
-            <p>Track your investments anytime, anywhere with our modern digital tools and reports.</p>
+            <p>Track your investments anytime, anywhere with modern digital tools and reports.</p>
         </div>
     </div>
 </section>

@@ -4,7 +4,7 @@ title: Contact Us
 permalink: /contact/
 ---
 
-Have questions about your investments or want to start your journey? Get in touch with us today.
+Have questions about your mutual fund investments or want to start your journey? Get in touch with me today.
 
 <div class="contact-form">
     <form action="https://formspree.io/f/your-id-here" method="POST">
@@ -25,8 +25,5 @@ Have questions about your investments or want to start your journey? Get in touc
 </div>
 
 > [!NOTE]
-> We typically respond within 1-2 business days. For urgent queries, please call us directly.
+> I typically respond within 1-2 business days. For urgent queries, please call me directly.
 
-## Our Office
-123 Financial Plaza, 
-Mumbai, Maharashtra - 400001

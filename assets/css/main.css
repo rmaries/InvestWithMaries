@@ -69,10 +69,20 @@ body {
 .footer-container {
     max-width: 1000px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 0 1rem;
+}
+
+.footer-disclaimer {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.8rem;
+    line-height: 1.4;
+    opacity: 0.8;
+    text-align: justify;
 }
 
 /* Responsive */
