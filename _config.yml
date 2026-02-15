@@ -3,10 +3,10 @@ email: contact@mfd.example.com
 description: >-
   Professional Mutual Fund Distribution and Financial Advisory Services. 
   Helping you grow your wealth with discipline.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://username.github.io" # the base hostname & protocol for your site
+baseurl: "/InvestWithMaries" # the subpath of your site, e.g. /blog
+url: "https://rmaries.github.io" # the base hostname & protocol for your site
 twitter_username: mfd_advisor
-github_username: username
+github_username: rmaries
 
 # Build settings
 theme: jekyll-theme-minimal # Using a basic theme as a starting point, we'll customize
