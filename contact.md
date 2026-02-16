@@ -6,12 +6,30 @@ permalink: /contact/
 
 Have questions about your mutual fund investments or want to start your journey? Get in touch with me today.
 
-<div class="appointment-scheduler">
-    <!-- Google Calendar Appointment Scheduling begin -->
-    <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0GIVV85ZFdH86bVQK2Bzd-qH0riBEZc6K5GepSad4Ku-Y5BABzmexnHtFh6X2zaqoGTfLkcrE5?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
-    <!-- end Google Calendar Appointment Scheduling -->
-</div>
+**R Marieswaran**  
+**ARN-151461**      
+AMFI Registered Mutual Fund Distributor  
 
-> [!NOTE]
-> I typically respond within 1-2 business days. For urgent queries, please call me directly.
 
+---
+
+### Book a Consultation
+
+
+<!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0GIVV85ZFdH86bVQK2Bzd-qH0riBEZc6K5GepSad4Ku-Y5BABzmexnHtFh6X2zaqoGTfLkcrE5?gv=true',
+      color: '#039BE5',
+      label: 'Book an appointment',
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
