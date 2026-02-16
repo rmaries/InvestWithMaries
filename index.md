@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Invest With Maries - Mutual Fund Distributor in Coimbatore (ARN-151461)
 ---
 
 <section class="hero">
