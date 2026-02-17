@@ -11,16 +11,15 @@ As a registered mutual fund distributor, I provide access to a wide range of mut
 - **Equity Funds:** For long-term wealth creation and capital appreciation.
 - **Debt Funds:** For stable returns and capital preservation.
 - **Hybrid Funds:** Balanced portfolios for optimized risk-return.
-- **Commodities:** Diversify with Gold and Silver funds.
+- **Gold & Silver Funds:** Diversify with Gold and Silver funds.
 
 ## Specialized NRI Services
 I currently serve clients across five countries, including **India, Germany, Qatar, Switzerland, and Sharjah (UAE)**. I understand the unique operational challenges for NRIs, such as:
 - **KYC Compliance:** Assisting with the complexities of international KYC.
 - **Account Management:** Navigating NRE vs. NRO account structures.
-- **Tax Efficiency:** Specialized support for FATCA & CRS declarations.
 
-### UAE NRI - Tax Advantages
-For clients in the UAE, I help you leverage significant tax advantages:
+### NRI - Tax Advantages
+For clients in the UAE and in some other countries, I help you leverage significant tax advantages:
 - **Zero Capital Gain Tax** (both short-term and long-term).
 - Guidance on obtaining a **Tax Residency Certificate (TRC)** and filing Form 10F.
 
