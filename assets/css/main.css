@@ -217,3 +217,31 @@ body {
     color: var(--primary-color);
     font-weight: 600;
 }
+
+/* Social Icons */
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    color: var(--primary-color);
+    transition: color 0.3s, transform 0.3s;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+.social-icon svg {
+    width: 28px;
+    height: 28px;
+}
+
+.footer-info .social-icon {
+    color: var(--white);
+    margin-top: 1rem;
+}
+
+.footer-info .social-icon:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
