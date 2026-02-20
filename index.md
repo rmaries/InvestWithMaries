@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Invest With Maries / ARN-151461 / Mutual Fund Distributor
+title: Invest With Maries
 ---
 
 <section class="hero">
