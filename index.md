@@ -12,7 +12,7 @@ title: Invest With Maries
     <h2>About Me</h2>
     <div class="content-block">
         <p>I bring over <strong>17 years of Global Engineering Experience</strong> as an Automotive Engineer, with a professional career spanning across India, Germany, and The Netherlands.</p>
-        <p>A passionate investor for over 15 years, I have consistently invested in Indian Mutual Funds throughout my engineering career. Recently, I transitioned to become an <strong>Independent Mutual Fund Distributor (ARN-151461)</strong> to pursue my passion for investing and help others build wealth through informed financial choices.</p>
+        <p>A passionate investor for over 15 years, I have consistently invested in Indian Mutual Funds throughout my career. I transitioned to become an <strong>Independent Mutual Fund Distributor (ARN-151461)</strong> to pursue my passion for investing and help others build wealth through informed financial choices.</p>
     </div>
 </section>
 
