@@ -10,6 +10,16 @@ Have questions about your mutual fund investments or want to start your journey?
 **ARN-151461**      
 AMFI Registered Mutual Fund Distributor 
 
+<p>You can reach me at: <span id="email-link"></span></p>
+
+<script>
+  // Scramble the email so bots can't read it in the source code
+  const user = "InvestWithMaries"; 
+  const domain = "gmail.com"; // or whatever your domain is
+  const email = user + "@" + domain;
+  const link = document.getElementById('email-link');
+  link.innerHTML = `<a href="mailto:${email}">${email}</a>`;
+</script>
 ---
 
 ### Book a Consultation
