@@ -40,13 +40,49 @@ title: Invest With Maries
     <a href="{{ '/calculators/' | relative_url }}" class="btn">Try our Calculators</a>
 </section>
 
-<section class="why-india">
-    <h2>Why India?</h2>
-    <div class="content-block">
-        <ul>
-            <li><strong>Fastest Growing Economy:</strong> A land of massive opportunities for wealth creation.</li>
-            <li><strong>Progressive Reforms:</strong> Largest young and working population combined with strong economic reforms.</li>
-            <li><strong>Strong Regulation:</strong> A safe and transparent environment governed by SEBI.</li>
-        </ul>
+<section class="why-india-section">
+    <div class="why-india-grid">
+        <div class="why-india-content">
+            <h2>Why India?</h2>
+            <p class="section-subtitle">India is positioned as one of the most compelling investment destinations globally. Here is why:</p>
+            <ul class="features-list">
+                <li class="feature-item">
+                    <span class="feature-icon">📈</span>
+                    <div class="feature-text">
+                        <strong>Fastest Growing Economy:</strong>
+                        <span>A land of massive opportunities for wealth creation, outperforming major global economies.</span>
+                    </div>
+                </li>
+                <li class="feature-item">
+                    <span class="feature-icon">👥</span>
+                    <div class="feature-text">
+                        <strong>Progressive Reforms:</strong>
+                        <span>Largest young and working population combined with strong, forward-looking economic reforms.</span>
+                    </div>
+                </li>
+                <li class="feature-item">
+                    <span class="feature-icon">🛡️</span>
+                    <div class="feature-text">
+                        <strong>Strong Regulation:</strong>
+                        <span>A safe, transparent, and highly robust investment environment governed by SEBI.</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="why-india-visual">
+            <div class="chart-card">
+                <div class="chart-header">
+                    <span class="chart-badge">IMF DataMapper</span>
+                    <span class="chart-title">Real GDP Growth (%)</span>
+                </div>
+                <div class="chart-image-wrapper">
+                    <img src="{{ '/assets/img/imf-gdp-growth.png' | relative_url }}" alt="Real GDP Growth comparison: India vs China vs United States" class="chart-image">
+                </div>
+                <div class="chart-footer">
+                    <p>India (red line) is projected to consistently outpace major economies like China and the US, making it a key engine of global wealth creation.</p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
+

@@ -245,3 +245,183 @@ body {
 .footer-info .social-icon:hover {
     color: rgba(255, 255, 255, 0.8);
 }
+
+/* Why India Section */
+.why-india-section {
+    background: var(--white);
+    padding: 3rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.why-india-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.section-subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+    padding: 1.25rem;
+    border-radius: 8px;
+    background-color: var(--white);
+    border: 1px solid transparent;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.feature-item:hover {
+    background-color: var(--light-bg);
+    border-color: var(--border-color);
+    transform: translateX(8px);
+}
+
+.feature-icon {
+    font-size: 1.5rem;
+    background: rgba(25, 118, 210, 0.1);
+    color: var(--primary-color);
+    padding: 0.75rem;
+    border-radius: 50%;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.feature-item:hover .feature-icon {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.feature-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.feature-text strong {
+    font-size: 1.15rem;
+    color: var(--primary-color);
+}
+
+.feature-text span {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Chart Card Styling */
+.chart-card {
+    background: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.chart-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.chart-header {
+    background: var(--light-bg);
+    padding: 1rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.chart-badge {
+    background: var(--primary-color);
+    color: var(--white);
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.chart-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #666;
+}
+
+.chart-image-wrapper {
+    background: var(--white);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.chart-card:hover .chart-image {
+    transform: scale(1.03);
+}
+
+.chart-footer {
+    padding: 1.25rem;
+    background: var(--light-bg);
+    border-top: 1px solid var(--border-color);
+}
+
+.chart-footer p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Responsive design for Why India Section */
+@media (max-width: 991px) {
+    .why-india-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+    
+    .why-india-section {
+        padding: 2.5rem 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .feature-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+    
+    .feature-item:hover {
+        transform: translateY(-2px);
+    }
+}
