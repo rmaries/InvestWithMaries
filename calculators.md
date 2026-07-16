@@ -11,16 +11,34 @@ Plan your financial future with our suite of disciplined investment tools. These
     <div class="calc-card">
         <h2>SIP Calculator</h2>
         <div class="input-group">
-            <label>Monthly Investment <span>₹<span id="sip-monthly-val">5000</span></span></label>
-            <input type="range" id="sip-monthly" min="500" max="100000" step="500" value="5000" oninput="calculateSIP()">
+            <div class="input-header">
+                <label for="sip-monthly-num">Monthly Investment</label>
+                <div class="input-number-container">
+                    <span class="currency-prefix">₹</span>
+                    <input type="number" id="sip-monthly-num" min="500" max="100000" step="500" value="5000" oninput="syncInput('sip-monthly', this.value, 'range'); calculateSIP();">
+                </div>
+            </div>
+            <input type="range" id="sip-monthly" min="500" max="100000" step="500" value="5000" oninput="syncInput('sip-monthly-num', this.value, 'number'); calculateSIP();">
         </div>
         <div class="input-group">
-            <label>Expected Return Rate (p.a) <span><span id="sip-rate-val">12</span>%</span></label>
-            <input type="range" id="sip-rate" min="1" max="30" step="0.5" value="12" oninput="calculateSIP()">
+            <div class="input-header">
+                <label for="sip-rate-num">Expected Return Rate (p.a)</label>
+                <div class="input-number-container">
+                    <input type="number" id="sip-rate-num" min="1" max="30" step="0.5" value="12" oninput="syncInput('sip-rate', this.value, 'range'); calculateSIP();">
+                    <span class="suffix">%</span>
+                </div>
+            </div>
+            <input type="range" id="sip-rate" min="1" max="30" step="0.5" value="12" oninput="syncInput('sip-rate-num', this.value, 'number'); calculateSIP();">
         </div>
         <div class="input-group">
-            <label>Investment Period <span><span id="sip-period-val">10</span> Yr</span></label>
-            <input type="range" id="sip-period" min="1" max="40" value="10" oninput="calculateSIP()">
+            <div class="input-header">
+                <label for="sip-period-num">Investment Period (Years)</label>
+                <div class="input-number-container">
+                    <input type="number" id="sip-period-num" min="1" max="40" value="10" oninput="syncInput('sip-period', this.value, 'range'); calculateSIP();">
+                    <span class="suffix">Yr</span>
+                </div>
+            </div>
+            <input type="range" id="sip-period" min="1" max="40" value="10" oninput="syncInput('sip-period-num', this.value, 'number'); calculateSIP();">
         </div>
         <div class="calc-results">
             <div class="result-item"><span>Invested Amount</span> <span id="sip-invested">₹0</span></div>
@@ -33,20 +51,44 @@ Plan your financial future with our suite of disciplined investment tools. These
     <div class="calc-card">
         <h2>Step-up SIP Calculator</h2>
         <div class="input-group">
-            <label>Initial Monthly SIP <span>₹<span id="step-monthly-val">5000</span></span></label>
-            <input type="range" id="step-monthly" min="500" max="100000" step="500" value="5000" oninput="calculateStepUp()">
+            <div class="input-header">
+                <label for="step-monthly-num">Initial Monthly SIP</label>
+                <div class="input-number-container">
+                    <span class="currency-prefix">₹</span>
+                    <input type="number" id="step-monthly-num" min="500" max="100000" step="500" value="5000" oninput="syncInput('step-monthly', this.value, 'range'); calculateStepUp();">
+                </div>
+            </div>
+            <input type="range" id="step-monthly" min="500" max="100000" step="500" value="5000" oninput="syncInput('step-monthly-num', this.value, 'number'); calculateStepUp();">
         </div>
         <div class="input-group">
-            <label>Annual Step-up (%) <span><span id="step-up-val">10</span>%</span></label>
-            <input type="range" id="step-up" min="1" max="50" value="10" oninput="calculateStepUp()">
+            <div class="input-header">
+                <label for="step-up-num">Annual Step-up</label>
+                <div class="input-number-container">
+                    <input type="number" id="step-up-num" min="1" max="50" value="10" oninput="syncInput('step-up', this.value, 'range'); calculateStepUp();">
+                    <span class="suffix">%</span>
+                </div>
+            </div>
+            <input type="range" id="step-up" min="1" max="50" value="10" oninput="syncInput('step-up-num', this.value, 'number'); calculateStepUp();">
         </div>
         <div class="input-group">
-            <label>Expected Return Rate (p.a) <span><span id="step-rate-val">12</span>%</span></label>
-            <input type="range" id="step-rate" min="1" max="30" step="0.5" value="12" oninput="calculateStepUp()">
+            <div class="input-header">
+                <label for="step-rate-num">Expected Return Rate (p.a)</label>
+                <div class="input-number-container">
+                    <input type="number" id="step-rate-num" min="1" max="30" step="0.5" value="12" oninput="syncInput('step-rate', this.value, 'range'); calculateStepUp();">
+                    <span class="suffix">%</span>
+                </div>
+            </div>
+            <input type="range" id="step-rate" min="1" max="30" step="0.5" value="12" oninput="syncInput('step-rate-num', this.value, 'number'); calculateStepUp();">
         </div>
         <div class="input-group">
-            <label>Investment Period <span><span id="step-period-val">10</span> Yr</span></label>
-            <input type="range" id="step-period" min="1" max="40" value="10" oninput="calculateStepUp()">
+            <div class="input-header">
+                <label for="step-period-num">Investment Period (Years)</label>
+                <div class="input-number-container">
+                    <input type="number" id="step-period-num" min="1" max="40" value="10" oninput="syncInput('step-period', this.value, 'range'); calculateStepUp();">
+                    <span class="suffix">Yr</span>
+                </div>
+            </div>
+            <input type="range" id="step-period" min="1" max="40" value="10" oninput="syncInput('step-period-num', this.value, 'number'); calculateStepUp();">
         </div>
         <div class="calc-results">
             <div class="result-item"><span>Invested Amount</span> <span id="step-invested">₹0</span></div>
@@ -59,16 +101,34 @@ Plan your financial future with our suite of disciplined investment tools. These
     <div class="calc-card">
         <h2>Lumpsum Calculator</h2>
         <div class="input-group">
-            <label>Total Investment <span>₹<span id="lump-total-val">50000</span></span></label>
-            <input type="range" id="lump-investment" min="5000" max="1000000" step="5000" value="50000" oninput="calculateLumpsum()">
+            <div class="input-header">
+                <label for="lump-investment-num">Total Investment</label>
+                <div class="input-number-container">
+                    <span class="currency-prefix">₹</span>
+                    <input type="number" id="lump-investment-num" min="5000" max="1000000" step="5000" value="50000" oninput="syncInput('lump-investment', this.value, 'range'); calculateLumpsum();">
+                </div>
+            </div>
+            <input type="range" id="lump-investment" min="5000" max="1000000" step="5000" value="50000" oninput="syncInput('lump-investment-num', this.value, 'number'); calculateLumpsum();">
         </div>
         <div class="input-group">
-            <label>Expected Return Rate (p.a) <span><span id="lump-rate-val">12</span>%</span></label>
-            <input type="range" id="lump-rate" min="1" max="30" step="0.5" value="12" oninput="calculateLumpsum()">
+            <div class="input-header">
+                <label for="lump-rate-num">Expected Return Rate (p.a)</label>
+                <div class="input-number-container">
+                    <input type="number" id="lump-rate-num" min="1" max="30" step="0.5" value="12" oninput="syncInput('lump-rate', this.value, 'range'); calculateLumpsum();">
+                    <span class="suffix">%</span>
+                </div>
+            </div>
+            <input type="range" id="lump-rate" min="1" max="30" step="0.5" value="12" oninput="syncInput('lump-rate-num', this.value, 'number'); calculateLumpsum();">
         </div>
         <div class="input-group">
-            <label>Investment Period <span><span id="lump-period-val">10</span> Yr</span></label>
-            <input type="range" id="lump-period" min="1" max="40" value="10" oninput="calculateLumpsum()">
+            <div class="input-header">
+                <label for="lump-period-num">Investment Period (Years)</label>
+                <div class="input-number-container">
+                    <input type="number" id="lump-period-num" min="1" max="40" value="10" oninput="syncInput('lump-period', this.value, 'range'); calculateLumpsum();">
+                    <span class="suffix">Yr</span>
+                </div>
+            </div>
+            <input type="range" id="lump-period" min="1" max="40" value="10" oninput="syncInput('lump-period-num', this.value, 'number'); calculateLumpsum();">
         </div>
         <div class="calc-results">
             <div class="result-item"><span>Invested Amount</span> <span id="lump-invested">₹0</span></div>
@@ -83,16 +143,33 @@ function formatCurrency(num) {
     return "₹" + Math.round(num).toLocaleString('en-IN');
 }
 
+function syncInput(targetId, sourceValue, type) {
+    const targetEl = document.getElementById(targetId);
+    if (!targetEl) return;
+
+    if (type === 'range') {
+        const numVal = parseFloat(sourceValue);
+        if (!isNaN(numVal)) {
+            const min = parseFloat(targetEl.min);
+            const max = parseFloat(targetEl.max);
+            targetEl.value = Math.min(Math.max(numVal, min), max);
+        }
+    } else {
+        targetEl.value = sourceValue;
+    }
+}
+
 function calculateSIP() {
-    const P = parseFloat(document.getElementById('sip-monthly').value);
-    const r = parseFloat(document.getElementById('sip-rate').value) / 12 / 100;
-    const n = parseFloat(document.getElementById('sip-period').value) * 12;
+    const P = parseFloat(document.getElementById('sip-monthly-num').value) || 0;
+    const r = parseFloat(document.getElementById('sip-rate-num').value) / 12 / 100;
+    const n = parseFloat(document.getElementById('sip-period-num').value) * 12;
 
-    document.getElementById('sip-monthly-val').innerText = P;
-    document.getElementById('sip-rate-val').innerText = document.getElementById('sip-rate').value;
-    document.getElementById('sip-period-val').innerText = document.getElementById('sip-period').value;
-
-    const totalValue = P * ((Math.pow(1 + r, n) - 1) / r) * (1 + r);
+    let totalValue = 0;
+    if (r === 0) {
+        totalValue = P * n;
+    } else {
+        totalValue = P * ((Math.pow(1 + r, n) - 1) / r) * (1 + r);
+    }
     const invested = P * n;
     
     document.getElementById('sip-invested').innerText = formatCurrency(invested);
@@ -101,13 +178,9 @@ function calculateSIP() {
 }
 
 function calculateLumpsum() {
-    const P = parseFloat(document.getElementById('lump-investment').value);
-    const r = parseFloat(document.getElementById('lump-rate').value) / 100;
-    const n = parseFloat(document.getElementById('lump-period').value);
-
-    document.getElementById('lump-total-val').innerText = P;
-    document.getElementById('lump-rate-val').innerText = document.getElementById('lump-rate').value;
-    document.getElementById('lump-period-val').innerText = document.getElementById('lump-period').value;
+    const P = parseFloat(document.getElementById('lump-investment-num').value) || 0;
+    const r = parseFloat(document.getElementById('lump-rate-num').value) / 100;
+    const n = parseFloat(document.getElementById('lump-period-num').value) || 0;
 
     const totalValue = P * Math.pow(1 + r, n);
     
@@ -117,15 +190,10 @@ function calculateLumpsum() {
 }
 
 function calculateStepUp() {
-    const P = parseFloat(document.getElementById('step-monthly').value);
-    const stepUp = parseFloat(document.getElementById('step-up').value) / 100;
-    const r = parseFloat(document.getElementById('step-rate').value) / 100;
-    const n = parseInt(document.getElementById('step-period').value);
-
-    document.getElementById('step-monthly-val').innerText = P;
-    document.getElementById('step-up-val').innerText = document.getElementById('step-up').value;
-    document.getElementById('step-rate-val').innerText = document.getElementById('step-rate').value;
-    document.getElementById('step-period-val').innerText = n;
+    const P = parseFloat(document.getElementById('step-monthly-num').value) || 0;
+    const stepUp = parseFloat(document.getElementById('step-up-num').value) / 100;
+    const r = parseFloat(document.getElementById('step-rate-num').value) / 100;
+    const n = parseInt(document.getElementById('step-period-num').value) || 0;
 
     let totalValue = 0;
     let totalInvested = 0;
