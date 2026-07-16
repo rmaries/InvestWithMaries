@@ -5,7 +5,7 @@ date: 2026-07-13 11:00:00 +0530
 categories: investing
 ---
 
-Recently, a piece of news caught my eye: The HDFC Mid-Cap Opportunities Fund just crossed a massive milestone of __₹1 lakh crore (1 trillion)__ in Assets Under Management.
+Recently, a piece of news caught my eye: The HDFC Mid-Cap Fund just crossed a massive milestone of __₹1 lakh crore (1 trillion)__ in Assets Under Management.
 
 While this sounds like a massive achievement for the fund, it raised a red flag in my mind. With so much money pouring into these funds, is the midcap space becoming overcrowded? Let's break down what this means and explore whether there is a hidden risk for everyday investors.
 
