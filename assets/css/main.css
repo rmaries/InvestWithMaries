@@ -408,7 +408,7 @@ body {
         grid-template-columns: 1fr;
         gap: 2.5rem;
     }
-    
+
     .why-india-section {
         padding: 2.5rem 1.5rem;
     }
@@ -420,7 +420,7 @@ body {
         align-items: flex-start;
         gap: 0.75rem;
     }
-    
+
     .feature-item:hover {
         transform: translateY(-2px);
     }
@@ -503,7 +503,9 @@ body {
     text-align: right;
     padding: 0.25rem 0;
     outline: none;
-    -moz-appearance: textfield; /* Hide spinner in Firefox */
+    -moz-appearance: textfield;
+    /* Hide spinner in Firefox */
+    appearance: textfield;
 }
 
 /* Hide spin-buttons in Chrome/Safari/Edge */
@@ -536,6 +538,7 @@ body {
     border-radius: 3px;
     outline: none;
     -webkit-appearance: none;
+    appearance: none;
     margin: 0.5rem 0 0 0;
 }
 
@@ -617,8 +620,8 @@ body {
     .calculators-container {
         grid-template-columns: 1fr;
     }
-    
+
     .calc-card {
         padding: 1.5rem;
     }
-}
+}
