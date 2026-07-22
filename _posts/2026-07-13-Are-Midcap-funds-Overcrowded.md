@@ -53,7 +53,7 @@ Because big funds own such a massive, concentrated chunk of these companies, try
 Midcap funds have delivered fantastic wealth for investors over the years. However, the sheer size of the money chasing these 150 stocks is something we need to be aware of. As the space gets more crowded, the risk of a severe traffic jam at the exit door increases.
 
 [HDFC Mid Cap Fund 1 Lakh Crore Milestone Celebration](https://www.youtube.com/watch?v=TJ8-pEFz-v0)
-This video from HDFC Mutual Fund directly marks the ₹1 lakh crore AUM milestone for their midcap fund, providing the exact industry context that triggered your blog post.
+This video from HDFC Mutual Fund directly marks the ₹1 lakh crore AUM milestone for their midcap fund, providing the exact industry context that triggered the blog post.
 
 
 ---
